@@ -21,6 +21,9 @@
 		44DA4B79186DB49F00426835 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DA4B5B186DB49F00426835 /* UIKit.framework */; };
 		44DA4B81186DB49F00426835 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44DA4B7F186DB49F00426835 /* InfoPlist.strings */; };
 		44DA4B83186DB49F00426835 /* TransitionsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA4B82186DB49F00426835 /* TransitionsDemoTests.m */; };
+		44DA4B8E186DB50600426835 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA4B8D186DB50600426835 /* SecondViewController.m */; };
+		44DA4B91186DB87800426835 /* CrossFadeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA4B90186DB87800426835 /* CrossFadeTransition.m */; };
+		44DA4B94186DC14D00426835 /* DismissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA4B93186DC14D00426835 /* DismissTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		44DA4B7E186DB49F00426835 /* TransitionsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransitionsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		44DA4B80186DB49F00426835 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44DA4B82186DB49F00426835 /* TransitionsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionsDemoTests.m; sourceTree = "<group>"; };
+		44DA4B8C186DB50600426835 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		44DA4B8D186DB50600426835 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		44DA4B8F186DB87800426835 /* CrossFadeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossFadeTransition.h; sourceTree = "<group>"; };
+		44DA4B90186DB87800426835 /* CrossFadeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossFadeTransition.m; sourceTree = "<group>"; };
+		44DA4B92186DC14D00426835 /* DismissTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissTransition.h; sourceTree = "<group>"; };
+		44DA4B93186DC14D00426835 /* DismissTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,12 @@
 				44DA4B6D186DB49F00426835 /* ViewController.m */,
 				44DA4B6F186DB49F00426835 /* Images.xcassets */,
 				44DA4B5E186DB49F00426835 /* Supporting Files */,
+				44DA4B8C186DB50600426835 /* SecondViewController.h */,
+				44DA4B8D186DB50600426835 /* SecondViewController.m */,
+				44DA4B8F186DB87800426835 /* CrossFadeTransition.h */,
+				44DA4B90186DB87800426835 /* CrossFadeTransition.m */,
+				44DA4B92186DC14D00426835 /* DismissTransition.h */,
+				44DA4B93186DC14D00426835 /* DismissTransition.m */,
 			);
 			path = TransitionsDemo;
 			sourceTree = "<group>";
@@ -249,8 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DA4B8E186DB50600426835 /* SecondViewController.m in Sources */,
 				44DA4B6E186DB49F00426835 /* ViewController.m in Sources */,
 				44DA4B68186DB49F00426835 /* AppDelegate.m in Sources */,
+				44DA4B94186DC14D00426835 /* DismissTransition.m in Sources */,
+				44DA4B91186DB87800426835 /* CrossFadeTransition.m in Sources */,
 				44DA4B64186DB49F00426835 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
