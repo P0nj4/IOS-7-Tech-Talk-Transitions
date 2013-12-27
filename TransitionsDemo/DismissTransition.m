@@ -24,7 +24,7 @@
     if (self) {
         self.pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panned:)];
         [vSource addGestureRecognizer:self.pan];
-        vSource.backgroundColor = [UIColor colorWithRed:1 green:0 blue:0 alpha:1];
+        [vSource viewWithTag:11].backgroundColor  = [UIColor colorWithRed:1 green:0 blue:0 alpha:0.];
     }
     return self;
 }
@@ -102,7 +102,7 @@
     snap.damping = 0.1;
     
     __weak typeof(self) weakSelf = self;
-    
+    [self.viewBeingDismissed viewWithTag:11].backgroundColor  = [UIColor colorWithRed:1 green:0 blue:0 alpha:0.];
     snap.action = ^{
         typeof (self) strongSelf = weakSelf;
         UIView *view = strongSelf.viewBeingDismissed;
@@ -135,7 +135,6 @@
 }
 
 - (void)panned:(UIGestureRecognizer *)gesture{
-    NSLog(@"gestured %i", gesture.state);
     switch (gesture.state) {
         case UIGestureRecognizerStateBegan:
             [self.delegate dragToDismissTransitionDidBeginDraggin:self];
@@ -145,7 +144,7 @@
             CGPoint center = self.transitionContainer.center;
             center.y = touchLocation.y - self.touchOffsetFromCenter.vertical;
             self.viewBeingDismissed.center = center;
-            self.viewBeingDismissed.backgroundColor = [UIColor colorWithRed:1-[self percentOfView] green:[self percentOfView] blue:[self percentOfView] alpha:1];
+            [self.viewBeingDismissed viewWithTag:11 ].backgroundColor = [UIColor colorWithRed:1-[self percentOfView] green:[self percentOfView] blue:[self percentOfView] alpha:[self percentOfView]];
             [self.context updateInteractiveTransition:[self percentOfView]];
         }
             break;

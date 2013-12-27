@@ -24,6 +24,8 @@
 		44DA4B8E186DB50600426835 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA4B8D186DB50600426835 /* SecondViewController.m */; };
 		44DA4B91186DB87800426835 /* CrossFadeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA4B90186DB87800426835 /* CrossFadeTransition.m */; };
 		44DA4B94186DC14D00426835 /* DismissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA4B93186DC14D00426835 /* DismissTransition.m */; };
+		44DA4B96186DF63700426835 /* wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44DA4B95186DF63600426835 /* wallpaper.jpg */; };
+		44DA4B98186DF84300426835 /* wallpaper2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44DA4B97186DF84300426835 /* wallpaper2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		44DA4B90186DB87800426835 /* CrossFadeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossFadeTransition.m; sourceTree = "<group>"; };
 		44DA4B92186DC14D00426835 /* DismissTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissTransition.h; sourceTree = "<group>"; };
 		44DA4B93186DC14D00426835 /* DismissTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissTransition.m; sourceTree = "<group>"; };
+		44DA4B95186DF63600426835 /* wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper.jpg; sourceTree = "<group>"; };
+		44DA4B97186DF84300426835 /* wallpaper2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,8 @@
 				44DA4B90186DB87800426835 /* CrossFadeTransition.m */,
 				44DA4B92186DC14D00426835 /* DismissTransition.h */,
 				44DA4B93186DC14D00426835 /* DismissTransition.m */,
+				44DA4B95186DF63600426835 /* wallpaper.jpg */,
+				44DA4B97186DF84300426835 /* wallpaper2.jpg */,
 			);
 			path = TransitionsDemo;
 			sourceTree = "<group>";
@@ -243,7 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DA4B96186DF63700426835 /* wallpaper.jpg in Resources */,
 				44DA4B70186DB49F00426835 /* Images.xcassets in Resources */,
+				44DA4B98186DF84300426835 /* wallpaper2.jpg in Resources */,
 				44DA4B62186DB49F00426835 /* InfoPlist.strings in Resources */,
 				44DA4B6B186DB49F00426835 /* Main.storyboard in Resources */,
 			);
